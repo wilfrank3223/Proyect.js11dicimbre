@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8"> <!-- Configura el conjunto de caracteres del documento -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura la escala inicial y la anchura del viewport para dispositivos móviles -->
+    <title>Cajero Automático</title> <!-- Título de la página que se mostrará en la pestaña del navegador -->
+    <link rel="stylesheet" href="style.css"> <!-- Enlaza el archivo de estilo externo 'style.css' -->
+</head>
+
+<body>
+    <h1>BANCOSAA</h1> <!-- Encabezado principal de nivel 1 con el texto "BANCOSAA" -->
+    <h2>MENU</h2> <!-- Encabezado de nivel 2 con el texto "MENU" -->
+
+    <!-- Lista de opciones del menú -->
+    <p>1. Ingresar dinero en la cuenta</p>
+    <p>2. Retirar dinero en la cuenta</p>
+    <p>3. Mostrar dinero en la cuenta</p>
+    <p>4. Salir</p>
+
+    <!-- Formulario con un campo de entrada y un botón -->
+    <form id="cajeroForm">
+        <label for="opcion">Digite una opción de menú: </label> <!-- Etiqueta asociada al campo de entrada -->
+        <input type="number" id="opcion" name="opcion" min="1" max="4" required>
+        <!-- Campo de entrada de tipo número con restricciones mínimas, máximas y requerido -->
+
+        <br> <!-- Salto de línea -->
+
+        <div id="acciones">
+            <!-- Contenedor div con el ID "acciones" para mostrar información adicional -->
+        </div>
+
+        <button type="button" onclick="realizarAccion()">Realizar Acción</button>
+        <!-- Botón que ejecutará la función "realizarAccion()" al hacer clic -->
+    </form>
+
+    <script src="script.js"></script> <!-- Enlaza el archivo de script externo 'script.js' -->
+
+</body>
+
+</html>
+

@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif; /* Establece la fuente principal del documento */
+    text-align: center; /* Centra el texto en el cuerpo del documento */
+    background-color: rgb(51, 57, 101); /* Establece el color de fondo del cuerpo */
+    margin: 0; /* Elimina el margen predeterminado del cuerpo */
+    padding: 0; /* Elimina el relleno predeterminado del cuerpo */
+    background-image: url('img/logoSE.png'); /* Establece la imagen de fondo del cuerpo */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    background-position: left top; /* Posiciona la imagen de fondo en la esquina superior izquierda */
+    background-size: 200px; /* Tamaño ajustado de la imagen de fondo */
+}
+
+h1 {
+    color: #f2f2f2; /* Establece el color del texto del encabezado h1 */
+}
+
+h2 {
+    color: azure; /* Establece el color del texto del encabezado h2 */
+}
+
+p {
+    color: #f5eeee; /* Establece el color del texto de los párrafos */
+}
+
+form {
+    background-color: #ffffff; /* Establece el color de fondo del formulario */
+    border: 2px solid #004080; /* Establece el borde del formulario */
+    padding: 20px; /* Espaciado interno del formulario */
+    border-radius: 5px; /* Bordes redondeados del formulario */
+    width: 300px; /* Ancho del formulario */
+    margin: 20px auto; /* Margen exterior automático */
+    box-shadow: 0px 0px 10px rgba(244, 241, 241, 0.2); /* Sombra ligera del formulario */
+}
+
+label {
+    display: block; /* Hace que las etiquetas sean bloques para el espaciado */
+    margin: 10px 0; /* Establece el margen superior e inferior de las etiquetas */
+    color: #004080; /* Establece el color del texto de las etiquetas */
+}
+
+input {
+    width: 100%; /* Establece el ancho completo para los campos de entrada */
+    padding: 10px; /* Relleno interno para los campos de entrada */
+    margin: 5px 0; /* Establece el margen superior e inferior para los campos de entrada */
+    box-sizing: border-box; /* Incluye el relleno y el borde en el ancho y alto total */
+}
+
+button {
+    background-color: #004080; /* Establece el color de fondo del botón */
+    color: #ffffff; /* Establece el color del texto del botón */
+    border: none; /* Sin borde para el botón */
+    padding: 10px 20px; /* Relleno interno del botón */
+    cursor: pointer; /* Hace que el cursor sea un puntero al pasar el ratón */
+    font-size: 16px; /* Tamaño de fuente del botón */
+    transition-duration: 0.4s; /* Duración de la transición al pasar el ratón */
+}
+
+button:hover {
+    background-color: #0066cc; /* Cambia el color de fondo del botón al pasar el ratón */
+}
+
+#acciones {
+    text-align: center; /* Alinea el texto al centro dentro del contenedor con ID "acciones" */
+    margin: 20px 0; /* Establece el margen superior e inferior del contenedor con ID "acciones" */
+}
+
+#acciones p {
+    color: #004080; /* Establece el color del texto dentro del contenedor con ID "acciones" */
+    font-weight: bold; /* Establece el grosor de la fuente a negrita */
+}
